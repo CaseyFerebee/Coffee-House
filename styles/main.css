@@ -1,0 +1,24 @@
+.shop {
+    flex-basis: 25%; 
+    border: 1px dotted crimson;
+    padding: .25em;
+    margin: 0.1;
+    text-align: left;
+    margin-bottom:0em ;
+  
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content:space-evenly;
+}
+
+.pageHeader {
+    display: flex;
+    justify-content: center; /* center align header content horizontally */
+    align-items: center; /* center align header content vertically */
+    height: 50px; /* set height for header */
+    background-color: #f8f8f8; /* add background color to header */
+  }
+
